@@ -1,62 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Shayaan Mohsin GitHub Profile Banner</title>
-  <desc id="desc">A professional cybersecurity banner emphasizing GRC, cyber risk, privacy, CTI, and security strategy.</desc>
+  <desc id="desc">A clean professional profile banner for Shayaan Mohsin focused on cybersecurity, GRC, risk, privacy, CTI, and security strategy.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1220"/>
-      <stop offset="0.5" stop-color="#102033"/>
-      <stop offset="1" stop-color="#0f172a"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#22c55e"/>
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22c55e"/>
     </linearGradient>
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
 
-  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#background)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="none" stroke="#1f2937" stroke-width="2"/>
 
-  <g opacity="0.18" stroke="#94a3b8" stroke-width="1">
-    <path d="M0 90 H1200"/>
-    <path d="M0 180 H1200"/>
-    <path d="M0 270 H1200"/>
-    <path d="M120 0 V360"/>
-    <path d="M310 0 V360"/>
-    <path d="M500 0 V360"/>
-    <path d="M690 0 V360"/>
-    <path d="M880 0 V360"/>
-    <path d="M1070 0 V360"/>
+  <g opacity="0.08" stroke="#e5e7eb" stroke-width="1">
+    <path d="M80 72 H1120"/>
+    <path d="M80 288 H1120"/>
+    <path d="M80 72 V288"/>
+    <path d="M1120 72 V288"/>
   </g>
 
-  <g opacity="0.65">
-    <circle cx="960" cy="92" r="58" fill="none" stroke="#38bdf8" stroke-width="3"/>
-    <circle cx="1040" cy="206" r="72" fill="none" stroke="#22c55e" stroke-width="3"/>
-    <circle cx="900" cy="252" r="34" fill="none" stroke="#e2e8f0" stroke-width="2"/>
-    <path d="M960 92 L1040 206 L900 252 Z" fill="none" stroke="#64748b" stroke-width="2"/>
-    <circle cx="960" cy="92" r="7" fill="#38bdf8" filter="url(#softGlow)"/>
-    <circle cx="1040" cy="206" r="7" fill="#22c55e" filter="url(#softGlow)"/>
-    <circle cx="900" cy="252" r="6" fill="#e2e8f0" filter="url(#softGlow)"/>
-  </g>
+  <rect x="80" y="98" width="104" height="6" rx="3" fill="url(#accent)"/>
 
-  <rect x="68" y="72" width="108" height="6" rx="3" fill="url(#accent)"/>
-  <text x="68" y="146" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="750">Shayaan Mohsin</text>
-  <text x="70" y="196" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="520">Cybersecurity Operations &amp; Leadership</text>
-  <text x="70" y="238" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="21">GRC | Cyber Risk | Privacy | CTI | Security Strategy</text>
+  <text x="80" y="166" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="760">
+    Shayaan Mohsin
+  </text>
 
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="650" text-anchor="middle" dominant-baseline="middle">
-    <rect x="70" y="276" width="122" height="36" rx="18" fill="#172554" stroke="#38bdf8" stroke-opacity="0.55"/>
-    <text x="131" y="295" fill="#dbeafe">NIST CSF</text>
-    <rect x="208" y="276" width="112" height="36" rx="18" fill="#052e16" stroke="#22c55e" stroke-opacity="0.55"/>
-    <text x="264" y="295" fill="#dcfce7">CISA KEV</text>
-    <rect x="336" y="276" width="120" height="36" rx="18" fill="#1e1b4b" stroke="#818cf8" stroke-opacity="0.55"/>
-    <text x="396" y="295" fill="#e0e7ff">ATT&amp;CK</text>
-    <rect x="472" y="276" width="166" height="36" rx="18" fill="#3b1d0f" stroke="#fb923c" stroke-opacity="0.55"/>
-    <text x="555" y="295" fill="#ffedd5">Executive Briefs</text>
+  <text x="82" y="212" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="560">
+    Cybersecurity Operations &amp; Leadership
+  </text>
+
+  <text x="82" y="252" fill="#e5e7eb" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="430">
+    GRC · Cyber Risk · Privacy · CTI · Security Strategy
+  </text>
+
+  <g opacity="0.9">
+    <path d="M812 178 H1090" stroke="#334155" stroke-width="1.5"/>
+    <circle cx="812" cy="178" r="4" fill="#38bdf8"/>
+    <circle cx="950" cy="178" r="4" fill="#22c55e"/>
+    <circle cx="1090" cy="178" r="4" fill="#94a3b8"/>
   </g>
 </svg>
