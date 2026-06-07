@@ -3,9 +3,9 @@
   <desc id="desc">A clean cybersecurity portfolio banner for Shayaan Mohsin.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#08111f"/>
-      <stop offset="55%" stop-color="#101927"/>
-      <stop offset="100%" stop-color="#0b1320"/>
+      <stop offset="0%" stop-color="#101513"/>
+      <stop offset="55%" stop-color="#16382f"/>
+      <stop offset="100%" stop-color="#0f241f"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#38bdf8"/>
@@ -16,9 +16,9 @@
 
   <rect width="1200" height="360" fill="url(#bg)"/>
 
-  <path d="M790 0 L1200 0 L1200 360 L650 360 Z" fill="#0d1b2d" opacity="0.72"/>
-  <path d="M0 314 C210 250 352 336 560 272 C716 224 852 220 1200 282" fill="none" stroke="#1e293b" stroke-width="2" opacity="0.75"/>
-  <path d="M0 330 C246 270 378 350 590 292 C762 244 902 244 1200 300" fill="none" stroke="#22324a" stroke-width="1.2" opacity="0.9"/>
+  <path d="M790 0 L1200 0 L1200 360 L650 360 Z" fill="#1b3f35" opacity="0.52"/>
+  <path d="M0 314 C210 250 352 336 560 272 C716 224 852 220 1200 282" fill="none" stroke="#2f4f46" stroke-width="2" opacity="0.72"/>
+  <path d="M0 330 C246 270 378 350 590 292 C762 244 902 244 1200 300" fill="none" stroke="#395c51" stroke-width="1.2" opacity="0.82"/>
 
   <g opacity="0.09" stroke="#e5e7eb" stroke-width="1">
     <path d="M76 60 H1124"/>
@@ -30,7 +30,7 @@
 
   <rect x="78" y="82" width="142" height="7" rx="3.5" fill="url(#accent)"/>
 
-  <text x="78" y="123" fill="#7dd3fc" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="750" letter-spacing="2.4">
+  <text x="78" y="123" fill="#86efac" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="750" letter-spacing="2.4">
     CYBERSECURITY PORTFOLIO
   </text>
   <text x="76" y="184" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="780">
