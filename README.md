@@ -18,6 +18,7 @@ My current focus is Governance, Risk, and Compliance (GRC), cyber risk, privacy,
 | [Healthcare Breach Risk Assessment](https://github.com/shayaan-mohsin/cybersecurity-portfolio/tree/main/projects/01-nist-csf-risk-assessment) | GRC analysis, NIST CSF 2.0 mapping, risk register, roadmap, executive brief | HHS OCR breach records, HHS guidance, NIST CSF 2.0 |
 | [CISA KEV Vulnerability Prioritization](https://github.com/shayaan-mohsin/cybersecurity-portfolio/tree/main/projects/02-cisa-kev-vulnerability-prioritization) | Exploited vulnerability triage, SLA matrix, Python workflow, weekly vulnerability brief | CISA KEV CSV/JSON feeds, CISA BOD 22-01 |
 | [Scattered Spider CTI Brief](https://github.com/shayaan-mohsin/cybersecurity-portfolio/tree/main/projects/03-mitre-attack-cti-brief) | ATT&CK mapping, identity-risk analysis, detection/response planning, executive summary | CISA AA23-320A, MITRE ATT&CK G1015 |
+| [AWS Cloud Security Log Investigation Lab](https://github.com/shayaan-mohsin/cybersecurity-portfolio/tree/main/projects/04-aws-cloud-security-log-investigation) | Cloud security monitoring, SOC-style log review, detection logic, Python automation, executive reporting | AWS Well-Architected guidance, CloudTrail event structure, sanitized lab events |
 
 ## Portfolio Hub
 
@@ -31,6 +32,7 @@ It includes project-management artifacts as well as the technical deliverables:
 - public-source methodology notes
 - risk registers and executive summaries
 - Python analysis workflow
+- AWS cloud security and log investigation lab
 - ATT&CK Navigator layer
 - final public-content review
 
@@ -51,10 +53,11 @@ It includes project-management artifacts as well as the technical deliverables:
 - Improving vulnerability prioritization workflows
 - Turning security analysis into executive-ready communication
 - Expanding practical DFIR and cloud/SaaS security knowledge
+- Building hands-on cloud security, log review, and Python automation experience
 
 ## Tools And Concepts
 
-`NIST CSF 2.0` `CISA KEV` `MITRE ATT&CK` `HHS OCR Breach Portal` `GRC` `Risk Registers` `Executive Briefs` `Vulnerability Prioritization` `CTI` `Incident Response Planning` `Python`
+`NIST CSF 2.0` `CISA KEV` `MITRE ATT&CK` `HHS OCR Breach Portal` `AWS` `CloudTrail` `GuardDuty` `IAM` `S3 Security` `GRC` `Risk Registers` `Executive Briefs` `Vulnerability Prioritization` `CTI` `Incident Response Planning` `Python`
 
 ## Connect
 
